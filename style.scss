@@ -1,0 +1,66 @@
+// FONTS
+$font: "Rubik", sans-serif;
+$bold-weight: 700;
+$normal-weight: 400;
+$thin-weight: 300;
+// FONT SIZE
+$bigger-font: 5.4rem;
+$normal-font: 4.2rem;
+$small-font: 2.8rem;
+
+// COLORS
+$color-white: #eef4ed;
+$text-color: #0b2545;
+$primary-color: #134074;
+$secondary-color: #8da9c4;
+$third-color: #fdca40;
+
+// SPACE
+$small-space: 1rem;
+$normal-space: 4rem;
+$bigger-space: 5rem;
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: $font;
+  box-sizing: border-box;
+  background-color: $color-white;
+  padding: 0;
+  margin: 0;
+  color: $text-color;
+}
+
+body {
+  h1 {
+    font-size: $bigger-font;
+    color: $primary-color;
+    margin-bottom: $bigger-space;
+    span {
+      font-size: 2.4rem;
+      font-weight: $normal-weight;
+    }
+  }
+
+  h2 {
+    font-size: $normal-font;
+    margin-bottom: $bigger-space;
+    font-weight: $bold-weight;
+  }
+  h3 {
+    font-size: $small-font;
+    font-weight: $normal-weight;
+  }
+}
+
+// UTILITIES
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
