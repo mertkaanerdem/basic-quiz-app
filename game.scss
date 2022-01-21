@@ -47,4 +47,16 @@ $third-color: #fdca40;
   .hud-main-text {
     text-align: center;
   }
+
+  #progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid $primary-color;
+    margin-top: 1.5rem;
+  }
+  #progressBarFull {
+    height: 3.4rem;
+    background-color: $primary-color;
+    width: 0%;
+  }
 }
