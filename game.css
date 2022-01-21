@@ -1,0 +1,35 @@
+.choice-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgba(141, 169, 196, 0.5);
+  background-color: white;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0.4rem 1.4rem 0 rgba(141, 169, 196, 0.5);
+          box-shadow: 0 0.4rem 1.4rem 0 rgba(141, 169, 196, 0.5);
+  -webkit-transform: translateY(-0.1rem);
+          transform: translateY(-0.1rem);
+  -webkit-transition: -webkit-transform 150ms;
+  transition: -webkit-transform 150ms;
+  transition: transform 150ms;
+  transition: transform 150ms, -webkit-transform 150ms;
+}
+
+.choice-container .choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #134074;
+  color: #fdca40;
+}
+
+.choice-container .choice-text {
+  padding: 1.5rem;
+  width: 100%;
+  background-color: white;
+}
+/*# sourceMappingURL=game.css.map */
