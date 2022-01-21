@@ -63,4 +63,50 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  > * {
+    width: 100%;
+  }
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+// BUTTONS
+.btn {
+  font-size: 1.8rem;
+  padding: $small-space 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid $secondary-color;
+  margin-bottom: $small-space;
+  text-decoration: none;
+  color: $secondary-color;
+  background-color: white;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(141, 169, 196, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  &[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
 }
