@@ -26,6 +26,12 @@ $third-color: #fdca40;
   .choice-text {
     padding: 1.5rem;
     width: 100%;
-    background-color: white;
+    background-color: transparent;
   }
+}
+.correct {
+  background-color: #28a745 !important;
+}
+.incorrect {
+  background-color: #dc3545 !important;
 }
