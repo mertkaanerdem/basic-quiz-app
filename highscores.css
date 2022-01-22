@@ -1,0 +1,24 @@
+#highScoresList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 4rem;
+}
+
+#highScoresList .high-score {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#highScoresList .high-score:hover {
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
+}
+
+#highScoresList .high-score .pts {
+  color: #fdca40;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+/*# sourceMappingURL=highscores.css.map */

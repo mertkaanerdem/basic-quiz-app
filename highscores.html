@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Custom Css -->
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./highscores.css" />
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,15 +14,16 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Quiz App</title>
+    <title>Quiz App - High Scores</title>
   </head>
   <body>
     <div class="container">
-      <div id="home" class="flex-center flex-column">
-        <h1>Quiz App</h1>
-        <a href="/game.html" class="btn">Play</a>
-        <a href="/highscores.html" class="btn">High Scores</a>
+      <div id="highScores" class="flex-center flex-column">
+        <h2 id="finalScore">High Scores</h2>
+        <ul id="highScoresList"></ul>
+        <a class="btn" href="/">Go Home</a>
       </div>
     </div>
+    <script src="highscores.js"></script>
   </body>
 </html>
