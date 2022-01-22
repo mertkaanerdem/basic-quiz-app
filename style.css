@@ -119,4 +119,48 @@ body h3 {
   -webkit-transform: none;
           transform: none;
 }
+
+form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form input {
+  margin-bottom: 1rem;
+  width: 20rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+  -webkit-box-shadow: 0 0.1rem 1.4rem 0 rgba(141, 169, 196, 0.5);
+          box-shadow: 0 0.1rem 1.4rem 0 rgba(141, 169, 196, 0.5);
+}
+
+form input::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+form input:-ms-input-placeholder {
+  color: #aaa;
+}
+
+form input::-ms-input-placeholder {
+  color: #aaa;
+}
+
+form input::placeholder {
+  color: #aaa;
+}
+
+form input:focus {
+  outline-color: #134074;
+}
 /*# sourceMappingURL=style.css.map */
